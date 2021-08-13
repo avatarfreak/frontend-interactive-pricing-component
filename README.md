@@ -38,8 +38,8 @@ If the visitor switches the toggle to yearly billing, a 25% discount should be a
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/avatarfreak/frontend-interactive-pricing-component](https://github.com/avatarfreak/frontend-interactive-pricing-component)
+- Live Site URL: [https://avatarfreak.github.io/frontend-interactive-pricing-component/](https://avatarfreak.github.io/frontend-interactive-pricing-component/)
 
 ### Built with
 
