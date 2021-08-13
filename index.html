@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="interactive pricing component challenged by avatarfreak">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&amp;display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/main.css" type="text/css" media="all">
+  <script src="js/script.js" defer></script>
+  <title>Frontend Mentor | Interactive pricing component</title>
+</head>
+
+<body>
+  <div class="wrapper">
+
+    <header class="header">
+      <h1>Simple, traffic-based pricing</h1>
+      <p class="header__intro">Sign-up for our 30-day trial.
+        <span class="header__intro">No credit card required.</span>
+      </p>
+    </header>
+    <main>
+      <!-- Billing Section -->
+      <section class="card">
+        <h2 class="card__header"> <span class="preview">100K</span> Pageviews</h2>
+
+        <div class="card__content">
+          <input type="range" class="card__slider range-slider" value="3" min='0' max="5" step="1">
+
+          <div class="card__subscription">
+            <span class="card__bill">$16.00</span>
+            <span class="card__duration"> / month</span>
+          </div>
+
+          <div class="card__billing">
+            <p class="month">Monthly Billing</p>
+            <label class="switch">
+              <input type="checkbox">
+              <span class="slider round"></span>
+            </label>
+            <p class="year">Yearly Billing</p>
+            <p class="discount">-25%</p>
+          </div>
+        </div>
+
+        <!-- Information  Section-->
+        <div class="info">
+          <ul class="info__list">
+            <li class="info__item"><img src="./images/icon-check.svg" alt="check sign" />Unlimited websites</li>
+            <li class="info__item"><img src="./images/icon-check.svg" alt="check sign" />100% data ownership</li>
+            <li class="info__item"><img src="./images/icon-check.svg" alt="check sign" />Email reports</li>
+          </ul>
+          <div><a href="#!" class="cta pgt-pill-btn">Start my trial</a></div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="https://www.github.com/avatarfreak">avatarfreak</a>.
+      </div>
+    </footer>
+  </div>
+</body>
+
+</html>
